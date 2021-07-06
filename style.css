@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    color: darkgreen;
+}
 .name{
     color: rgb(233, 236, 59);
 }
@@ -13,6 +16,7 @@ h3{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
   
 }
 .new-width{
@@ -35,4 +39,9 @@ section{
 .ab{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.cd{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
